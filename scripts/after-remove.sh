@@ -1,1 +1,1 @@
-rm -rf /usr/lib/tfenv
+rm -rf /var/lib/tfenv
