@@ -1,5 +1,5 @@
 NAME=terraform-tfenv
-VERSION=2.2.0
+VERSION=3.0.0
 ITERATION=1
 BUILD=build
 DIST=dist
