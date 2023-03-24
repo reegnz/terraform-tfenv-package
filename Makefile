@@ -70,7 +70,9 @@ $(ARCHIVE_DIR): $(ARCHIVE)
 
 
 $(ARCHIVE): $(BUILD)
-	wget https://api.github.com/repos/tfutils/tfenv/tarball/v2.0.0 -O $(ARCHIVE)
+	wget https://github.com/tfutils/tfenv/archive/refs/tags/v$(VERSION).tar.gz -O $(ARCHIVE)
+
+
 
 
 $(BUILD):
